@@ -60,6 +60,8 @@ src/assets/
 
 ![Home Section](screenshots/home.png)
 
+![Navbar & Hero Section](screenshots/navbar-hero.png)
+
 ![About Section](screenshots/about.png)
 
 ![Book Table Section](screenshots/book-table.png)
