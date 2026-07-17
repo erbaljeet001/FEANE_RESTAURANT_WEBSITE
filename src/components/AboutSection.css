@@ -1,0 +1,42 @@
+.aboutSec
+{
+     min-height: 700px;
+    
+   
+     background: #222831;
+}
+.innerCont{
+    min-height: 700px;
+   
+}
+
+.x1
+{
+    height: 65px;
+  
+   
+}
+
+.y
+{
+   height: 600px;
+ 
+}
+
+.leftImg
+{ 
+    height: 600px;
+    width: 440px;
+    margin-left: 140px;
+    margin-top: 20px;
+    background: url('../assets/about-img.png');
+    background-size:cover ;
+}
+
+.textright
+{
+       color:  white;
+        margin-top: 200px;
+        margin-left: 60px;
+        font-family: cursive;
+}
