@@ -24,10 +24,10 @@ const Navbar = () => {
           <div className="col-lg-6 col-md-6 col-12">
             <ul className="menu">
               <li>
-                <Link to='/' className="text-warning">HOME</Link>
+              HOME
               </li>
               <li>
-                  <Link  to='/foodsection'>MENU</Link>
+                  MENU
               </li>
               <li>ABOUT</li>
               <li>BOOK TABLE</li>
