@@ -1,16 +1,83 @@
-# React + Vite
+# FEANE Restaurant Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive restaurant website built with React and Vite. This project showcases a polished dining experience through a clean landing page, featured food sections, special offers, about information, and a table reservation experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+FEANE is a visually appealing restaurant website designed to present the brand, menu highlights, and booking flow in a professional and user-friendly way. The interface is built with reusable React components and a responsive layout to support both desktop and mobile users.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive hero section with strong visual branding
+- Featured food and offers sections
+- About section to communicate restaurant story and value
+- Reservation / table booking section
+- Smooth navigation with React Router
+- Modern styling with Bootstrap and custom CSS
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite 8
+- React Router DOM
+- Bootstrap 5
+- React Hook Form
+- Yup
+- React Icons
+- ESLint
+
+## Project Structure
+
+```text
+src/
+  components/      # Reusable UI sections such as Navbar, Hero, Menu, Offer, Footer
+  pages/           # Main route-based pages
+  assets/          # Static images and media files
+  App.jsx          # Main app component and routing setup
+  main.jsx         # Application entry point
+```
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js 18 or newer
+- npm or pnpm
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd FEANE_RESTAURANT_WEBSITE
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open the local URL shown in the terminal to view the project.
+
+## Available Scripts
+
+- `npm run dev` — starts the Vite development server
+- `npm run build` — creates a production build
+- `npm run preview` — previews the production build locally
+- `npm run lint` — runs ESLint for code quality checks
+
+## Development Notes
+
+This project follows a component-based structure for scalability and maintainability. New sections or reusable UI elements should be added under the components directory, while page-level layouts belong in the pages directory.
+
+## Contributing
+
+Contributions are welcome. If you would like to improve the project, please create a feature branch, make your changes, and open a pull request with a clear description.
