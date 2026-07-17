@@ -15,18 +15,6 @@ FEANE is a visually appealing restaurant website designed to present the brand, 
 - Smooth navigation with React Router
 - Modern styling with Bootstrap and custom CSS
 
-## Project Preview
-
-Here are some of the visual sections included in the project:
-
-![About Section](src/assets/About-Section.png)
-
-![Book Table Section](src/assets/BookTable.png)
-
-![Menu Section](src/assets/Menu-Section.png)
-
-![Offer Section](src/assets/Offer-Section.png)
-
 ## Tech Stack
 
 - React 19
@@ -67,6 +55,18 @@ src/assets/
   o1.jpg, o2.jpg             # Offer images
   f1.png to f9.png           # Food item images
 ```
+
+### Project Screenshots
+
+![Home Section](screenshots/home.png)
+
+![About Section](screenshots/about.png)
+
+![Book Table Section](screenshots/book-table.png)
+
+![Menu Section](screenshots/menu.png)
+
+![Offer Section](screenshots/offer.png)
 
 These assets are organized to support the restaurant landing page sections such as About, Book Table, Menu, and Offers.
 
